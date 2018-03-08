@@ -18,12 +18,5 @@
         "psr-4": {
             "stison\\dotdotdot\\": ""
         }
-    },
-    "repositories": [
-        {
-            "name": "stison/yii2-dotdotdot",
-            "type": "vcs",
-            "url": "https://github.com/stison/yii2-dotdotdot.git"
-        }
-    ]
+    }
 }
