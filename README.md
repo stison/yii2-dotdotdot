@@ -1,6 +1,10 @@
 yii2-dotdotdot
 ==============
 
+This is a copy of Harry Tangs - yii2-dotdotdot. We didn't want to re-write it so we've copied it here.
+
+harrytang/yii2-dotdotdot
+
 JQuery DotDotDot Plugin For Yii 2.x
 
 Installation
@@ -11,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist harrytang/yii2-dotdotdot "*"
+php composer.phar require --prefer-dist stison/yii2-dotdotdot "*"
 ```
 
 or add
 
 ```json
-"harrytang/yii2-dotdotdot": "*"
+"stison/yii2-dotdotdot": "*"
 ```
 
 to the `require` section of your composer.json.
@@ -35,12 +39,12 @@ Quick start
     </div>
 
     <?php
-    \harrytang\dotdotdot\DotDotDot::widget();
+    \stison\dotdotdot\DotDotDot::widget();
     ?>
 ```
 or
 ```
     <?php
-    \harrytang\dotdotdot\DotDotDot::widget('selector'=>'dot3, 'options'=>['key'=>'value']);
+    \stison\dotdotdot\DotDotDot::widget('selector'=>'dot3, 'options'=>['key'=>'value']);
     ?>
 ```

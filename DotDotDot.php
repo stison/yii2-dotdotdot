@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2014 Grey Neuron
  */
 
-namespace harrytang\dotdotdot;
+namespace stison\dotdotdot;
 
 use yii\base\Widget;
 use yii\helpers\Json;
